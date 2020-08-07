@@ -103,9 +103,11 @@ p {
 }
 
 /* Simplified same events into one group #3.*/
+/* Added Position.*/
 .benefit-lead img,
 .benefit-brand img,
 .benefit-cost img {
+   position: relative;
     display: block;
     margin: 10px auto;
     max-width: 150px;
@@ -124,10 +126,12 @@ p {
 }
 
 /* Simplified same events into one group #4.*/
+/* Added Position.*/
 .search-engine-optimization img,
 .online-reputation-management img,
 .social-media-marketing img
  {
+     position: relative;
     max-height: 200px;
 }
 
@@ -135,8 +139,9 @@ p {
 .search-engine-optimization h2,
 .online-reputation-management h2,
 .social-media-marketing h2 {
+    position: relative;
     margin-bottom: 20px;
-    font-size: 36px;
+    font-size: 36px;   
 }
 
 .footer {
